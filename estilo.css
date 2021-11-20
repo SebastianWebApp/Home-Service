@@ -1,0 +1,405 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(226, 223, 216);
+}
+
+/* Creamos el menu */
+
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+}
+
+
+
+#icono{
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+h2{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    margin-top: 0.7rem;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+    }
+
+
+ul{
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.7rem;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-shadow: 1px 3px 4px rgb(0, 0, 0,0.3);
+    transition: all .3s;
+    cursor: pointer;
+
+}
+
+
+/* Empezamos a realizar el cuerpo */
+
+/* Realizamos la portada de la pagina */
+
+#Portada{
+    width: 100%;
+}
+
+#portada{
+   height: 23rem;
+   width: 100%;
+   background-size: cover;
+}
+
+
+
+#Destacados{
+    margin: 0px;
+
+}
+
+#Destacados p{
+    
+    margin-top: 0rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    font-style: italic;
+}
+
+
+
+
+
+#DestacadosImagenes{
+    width: 96%;    
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    overflow-y: auto;
+}
+
+section{
+    display: inline-block;
+    border-collapse:separate ;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Imagenes img{
+    padding: 0.5rem;
+    display: inline;
+    width: 20%;
+    background-size: cover;
+    width: 15rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.Imagenes h1{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+}
+
+section:hover{
+    background-color: rgb(223, 221, 221);
+}
+
+#Productos{
+    margin: 10px;
+}
+
+#Productos p{   
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+}
+
+#ProductosImagenes{
+    text-align: center;
+    display: flex;
+    overflow-y: auto;
+    width: 96%;    
+    margin-left: 1.5rem;
+
+    margin-top: 0.5rem;
+}
+
+
+.ImagenesP{
+    background-color: #ffffff;
+    border: rgb(0, 0, 0) solid 1px;
+    border-collapse:separate ;
+
+    margin-bottom: 0.5rem;
+}
+
+.ImagenesP img{
+    padding: 0.5rem;
+    display: inline;
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    width: 15rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.ImagenesP h1{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+}
+
+
+/* Realizamos el pie de pagina */
+
+
+#googlemap{
+    float: right;
+    margin-right: 2rem;
+    display: inline;
+}
+
+
+#Informacion{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.iconosRedes{
+    margin-left: 3rem;
+    display: inline;
+}
+
+#iconos{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#RedesSociales h2{
+    text-align: center;
+    display: block;
+    width: 70%;
+}
+#mapa{
+    width: 40rem;
+    
+}
+
+#QuienesSomos p{
+
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+#QuienesSomos h2{
+    width: 70%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+@media screen  and (max-width:1340px){
+    #mapa{
+        width: 34rem;
+    }
+}
+
+
+@media screen  and (max-width:1235px){
+    #mapa{
+        width: 27rem;
+    }
+}
+
+@media screen  and (max-width:1131px){
+    #mapa{
+        width: 21rem;
+    }
+}
+
+@media screen  and (max-width:1035px){
+    #mapa{
+        width: 16rem;
+    }
+}
+
+@media screen  and (max-width:945px){
+    #Informacion{
+        display: block;
+        margin-left: 0rem;
+    }
+    #RedesSociales h2{
+        text-align: center;
+        display: block;
+        width: 90%;
+        margin-left: 3rem;
+    }
+    #QuienesSomos p{
+
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+    }
+    
+    #QuienesSomos h2{
+        width: 90%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-left: 3rem;
+
+    }
+
+    #iconos{
+       text-align: center;
+       margin-left: 0rem;
+    }
+
+    #googlemap{
+        
+        float:none ;
+        margin-left: 15%;
+        margin-top: 2rem;
+        display: block;
+    }
+  
+    #mapa{
+
+        float: none;
+        width: 40rem;
+       
+    }
+}
+
+
+@media screen  and (max-width:800px){
+    #googlemap{
+        
+        float:none ;
+        margin-left: 15%;
+        margin-top: 2rem;
+        display: block;
+    }
+    #mapa{
+
+        float: none;
+        width: 35rem;
+       
+    }
+}
+
+@media screen  and (max-width:700px){
+    #mapa{
+        margin-top: 1rem;
+        width: 30rem;
+    }
+    #googlemap{
+        margin-left: 6%;
+        display: inline;
+        text-align: center;
+    }
+
+    ul{
+        visibility: hidden;
+        position: absolute;
+    }
+    #Informacion{
+        margin-left: 0rem;
+    }
+}
+
+@media screen  and (max-width:560px){
+    #mapa{
+        margin-top: 1rem;
+        width: 20rem;
+    }
+    #googlemap{
+        margin-left: 4%;
+        display: inline;
+        text-align: center;
+    }
+
+    ul{
+        visibility: hidden;
+        position: absolute;
+    }
+    #Informacion{
+        margin-left: 0rem;
+    }
+
+    #RedesSociales h2{
+        text-align: center;
+        display: block;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    #QuienesSomos p{
+
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+    }
+    
+    #QuienesSomos h2{
+        width: 90%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-left: 1rem;
+
+    }
+    #iconos{
+        text-align: center;
+        margin-left: 0.5rem;
+     }
+     .iconosRedes{
+        margin-left: 0rem;
+        display: inline;
+    }
+}
