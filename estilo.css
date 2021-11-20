@@ -353,7 +353,7 @@ section:hover{
 @media screen  and (max-width:560px){
     #mapa{
         margin-top: 1rem;
-        width: 25rem;
+        width: 20rem;
     }
     #googlemap{
         margin-left: 6%;
