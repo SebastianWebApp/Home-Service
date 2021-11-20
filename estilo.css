@@ -349,3 +349,57 @@ section:hover{
         margin-left: 0rem;
     }
 }
+
+@media screen  and (max-width:560px){
+    #mapa{
+        margin-top: 1rem;
+        width: 25rem;
+    }
+    #googlemap{
+        margin-left: 6%;
+        display: inline;
+        text-align: center;
+    }
+
+    ul{
+        visibility: hidden;
+        position: absolute;
+    }
+    #Informacion{
+        margin-left: 0rem;
+    }
+
+    #RedesSociales h2{
+        text-align: center;
+        display: block;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    #QuienesSomos p{
+
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+    }
+    
+    #QuienesSomos h2{
+        width: 90%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        margin-left: 1rem;
+
+    }
+    #iconos{
+        text-align: center;
+        margin-left: 0.5rem;
+     }
+     .iconosRedes{
+        margin-left: 0rem;
+        display: inline;
+    }
+}
